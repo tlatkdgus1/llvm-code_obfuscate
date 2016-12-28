@@ -31,7 +31,7 @@ namespace {
 		First(bool flag) : FunctionPass(ID) {this->flag = flag; First();}
 
 		virtual bool runOnFunction(Function &F){
-			errs() << "Current function name: [" << F.getName() << "]\n";
+			errs() << "Smartalter First code obfuscation\n";
 		}
 	};
 }
